@@ -1,0 +1,135 @@
+
+Log Entry : 20:09:20 19 January 2023
+  :
+  :Failure sending mail.
+-------------------------------
+
+Log Entry : 20:09:20 19 January 2023
+  :
+  :The SMTP host was not specified.
+-------------------------------
+
+Log Entry : 20:23:08 19 January 2023
+  :
+  :Failure sending mail.
+-------------------------------
+
+Log Entry : 20:23:08 19 January 2023
+  :
+  :No such host is known.
+-------------------------------
+
+Log Entry : 20:26:00 19 January 2023
+  :
+  :Failure sending mail.
+-------------------------------
+
+Log Entry : 20:26:00 19 January 2023
+  :
+  :No such host is known.
+-------------------------------
+
+Log Entry : 20:30:46 19 January 2023
+  :
+  :Failure sending mail.
+-------------------------------
+
+Log Entry : 20:30:46 19 January 2023
+  :
+  :No such host is known.
+-------------------------------
+
+Log Entry : 20:31:44 19 January 2023
+  :
+  :The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+-------------------------------
+
+Log Entry : 20:35:33 19 January 2023
+  :
+  :The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+-------------------------------
+
+Log Entry : 20:37:29 19 January 2023
+  :
+  :The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+-------------------------------
+
+Log Entry : 20:40:28 19 January 2023
+  :
+  :The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+-------------------------------
+
+Log Entry : 20:45:55 19 January 2023
+  :
+  :The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+-------------------------------
+
+Log Entry : 08:45:09 20 January 2023
+  :
+  :The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+-------------------------------
+
+Log Entry : 09:11:57 30 January 2023
+  :
+  :Failure sending mail.
+-------------------------------
+
+Log Entry : 09:11:57 30 January 2023
+  :
+  :No such host is known.
+-------------------------------
+
+Log Entry : 09:16:27 30 January 2023
+  :
+  :Failure sending mail.
+-------------------------------
+
+Log Entry : 09:16:27 30 January 2023
+  :
+  :No such host is known.
+-------------------------------
+
+Log Entry : 09:18:29 30 January 2023
+  :
+  :Failure sending mail.
+-------------------------------
+
+Log Entry : 09:18:29 30 January 2023
+  :
+  :No such host is known.
+-------------------------------
+
+Log Entry : 19:46:27 01 February 2023
+  :
+  :Failure sending mail.
+-------------------------------
+
+Log Entry : 19:46:27 01 February 2023
+  :
+  :No such host is known.
+-------------------------------
+
+Log Entry : 10:07:15 29 March 2023
+  :
+  :Failure sending mail.
+-------------------------------
+
+Log Entry : 10:07:15 29 March 2023
+  :
+  : Received an unexpected EOF or 0 bytes from the transport stream.
+-------------------------------
+
+Log Entry : 10:06:20 12 October 2023
+  :
+  :The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+-------------------------------
+
+Log Entry : 10:32:48 12 October 2023
+  :
+  :The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+-------------------------------
+
+Log Entry : 10:36:25 12 October 2023
+  :
+  :The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+-------------------------------

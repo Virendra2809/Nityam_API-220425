@@ -1,0 +1,194 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Implementation\AgriProductMasterService.cs" />
+    <Compile Remove="Implementation\AgriProductPriceDetailService.cs" />
+    <Compile Remove="Implementation\AgriProductTypeMasterService.cs" />
+    <Compile Remove="Implementation\AgriProductVarietyMasterService.cs" />
+    <Compile Remove="Implementation\CityMasterService.cs" />
+    <Compile Remove="Implementation\CronJobService.cs" />
+    <Compile Remove="Implementation\CropCultivationprocessDetailService.cs" />
+    <Compile Remove="Implementation\CropCultivationProcessService.cs" />
+    <Compile Remove="Implementation\CropDiseaseDetailService.cs" />
+    <Compile Remove="Implementation\CropDiseaseMasterService.cs" />
+    <Compile Remove="Implementation\CropInsectDetailService.cs" />
+    <Compile Remove="Implementation\CropInsectMasterService.cs" />
+    <Compile Remove="Implementation\CropIrrigationService.cs" />
+    <Compile Remove="Implementation\CropMasterService.cs" />
+    <Compile Remove="Implementation\CropNotificationService.cs" />
+    <Compile Remove="Implementation\CropNutritionBrandMasterService.cs" />
+    <Compile Remove="Implementation\CropNutritionProductMasterService.cs" />
+    <Compile Remove="Implementation\CropNutrtionCategoryMasterService.cs" />
+    <Compile Remove="Implementation\CropProtectionBrandMasterService.cs" />
+    <Compile Remove="Implementation\CropProtectionCategoryMasterService.cs" />
+    <Compile Remove="Implementation\CropProtectionProductService.cs" />
+    <Compile Remove="Implementation\CropProtectionSubCategoryMasterService.cs" />
+    <Compile Remove="Implementation\CropStageService.cs" />
+    <Compile Remove="Implementation\CropTypeMasterService.cs" />
+    <Compile Remove="Implementation\ExpenseHeadTypeService.cs" />
+    <Compile Remove="Implementation\ExpenseOperationService.cs" />
+    <Compile Remove="Implementation\ExpensesDetailService.cs" />
+    <Compile Remove="Implementation\ExpenseStageService.cs" />
+    <Compile Remove="Implementation\FarmerCropDetailService.cs" />
+    <Compile Remove="Implementation\FarmerMasterService.cs" />
+    <Compile Remove="Implementation\FirmDetailService.cs" />
+    <Compile Remove="Implementation\LandPreparationDetailService.cs" />
+    <Compile Remove="Implementation\LanguageMasterService.cs" />
+    <Compile Remove="Implementation\LikesService.cs" />
+    <Compile Remove="Implementation\LogNLog.cs" />
+    <Compile Remove="Implementation\MachinaryBrandMasterService.cs" />
+    <Compile Remove="Implementation\MachinaryCategoryMasterService.cs" />
+    <Compile Remove="Implementation\MachinaryProductMasterService.cs" />
+    <Compile Remove="Implementation\MandiMasterService.cs" />
+    <Compile Remove="Implementation\MandiServicesForApp.cs" />
+    <Compile Remove="Implementation\ModuleMasterService.cs" />
+    <Compile Remove="Implementation\NotificationService.cs" />
+    <Compile Remove="Implementation\NutrientDeficencyDetailService.cs" />
+    <Compile Remove="Implementation\NutrientDetailService.cs" />
+    <Compile Remove="Implementation\NutrientMasterService.cs" />
+    <Compile Remove="Implementation\NutrientsCategoryService.cs" />
+    <Compile Remove="Implementation\PolicyCategoryMasterService.cs" />
+    <Compile Remove="Implementation\PolicyDetailService.cs" />
+    <Compile Remove="Implementation\PolicyTypeMasterService.cs" />
+    <Compile Remove="Implementation\PostCategoryService.cs" />
+    <Compile Remove="Implementation\PostCommentService.cs" />
+    <Compile Remove="Implementation\PostDetailService.cs" />
+    <Compile Remove="Implementation\ProductBrandMasterService.cs" />
+    <Compile Remove="Implementation\ProductCategoryMasterService.cs" />
+    <Compile Remove="Implementation\ProductImageService.cs" />
+    <Compile Remove="Implementation\ProductService.cs" />
+    <Compile Remove="Implementation\ProductSubCategoryMasterService.cs" />
+    <Compile Remove="Implementation\RoleService.cs" />
+    <Compile Remove="Implementation\ScheduleJob.cs" />
+    <Compile Remove="Implementation\SeasonMasterService.cs" />
+    <Compile Remove="Implementation\SeedBrandMasterService.cs" />
+    <Compile Remove="Implementation\SeedCategoryMasterService.cs" />
+    <Compile Remove="Implementation\SeedCropMasterService.cs" />
+    <Compile Remove="Implementation\SeedCropSpacingService.cs" />
+    <Compile Remove="Implementation\SeedProductMasterService.cs" />
+    <Compile Remove="Implementation\SeedSubCategoryMasterService.cs" />
+    <Compile Remove="Implementation\SoilTestReportService.cs" />
+    <Compile Remove="Implementation\SoilTypeMasterService.cs" />
+    <Compile Remove="Implementation\StateService.cs" />
+    <Compile Remove="Implementation\UnitofMeasurementMasterService.cs" />
+    <Compile Remove="Implementation\UserService.cs" />
+    <Compile Remove="Implementation\WeedManagementCategoryService.cs" />
+    <Compile Remove="Implementation\WeedManagementMethodService.cs" />
+    <Compile Remove="Implementation\WeedMasterService.cs" />
+    <Compile Remove="Interface\IAgriProductMasterService.cs" />
+    <Compile Remove="Interface\IAgriProductPriceDetailService.cs" />
+    <Compile Remove="Interface\IAgriProductTypeMasterService.cs" />
+    <Compile Remove="Interface\IAgriProductVarietyMasterService.cs" />
+    <Compile Remove="Interface\ICityMasterService.cs" />
+    <Compile Remove="Interface\ICropCultivationProcessDetailService.cs" />
+    <Compile Remove="Interface\ICropCultivationProcessService.cs" />
+    <Compile Remove="Interface\ICropDiseaseDetailService.cs" />
+    <Compile Remove="Interface\ICropDiseaseImageService.cs" />
+    <Compile Remove="Interface\ICropDiseaseMasterService.cs" />
+    <Compile Remove="Interface\ICropInsectDetailService.cs" />
+    <Compile Remove="Interface\ICropInsectMasterservice.cs" />
+    <Compile Remove="Interface\ICropIrrigationService.cs" />
+    <Compile Remove="Interface\ICropMasterService.cs" />
+    <Compile Remove="Interface\ICropNotificationService.cs" />
+    <Compile Remove="Interface\ICropNutritionBrandMasterService.cs" />
+    <Compile Remove="Interface\ICropNutritionProductMasterService.cs" />
+    <Compile Remove="Interface\ICropNutrtionCategoryMasterService.cs" />
+    <Compile Remove="Interface\ICropProtectionBrandMasterService.cs" />
+    <Compile Remove="Interface\ICropProtectionCategoryMasterService.cs" />
+    <Compile Remove="Interface\ICropProtectionProductService.cs" />
+    <Compile Remove="Interface\ICropProtectionSubCategoryMaster.cs" />
+    <Compile Remove="Interface\ICropStageService.cs" />
+    <Compile Remove="Interface\ICropTypeMasterService.cs" />
+    <Compile Remove="Interface\IExpenseHeadTypeService.cs" />
+    <Compile Remove="Interface\IExpenseOperationService.cs" />
+    <Compile Remove="Interface\IExpensesDetailService.cs" />
+    <Compile Remove="Interface\IExpenseStageService.cs" />
+    <Compile Remove="Interface\IFarmerCropDetailService.cs" />
+    <Compile Remove="Interface\IFarmerMasterService.cs" />
+    <Compile Remove="Interface\IFirmDetail.cs" />
+    <Compile Remove="Interface\ILandPreparationDetails.cs" />
+    <Compile Remove="Interface\ILandPreparationImage.cs" />
+    <Compile Remove="Interface\ILanguageMasterservice.cs" />
+    <Compile Remove="Interface\ILikesService.cs" />
+    <Compile Remove="Interface\ILog.cs" />
+    <Compile Remove="Interface\IMachinaryBrandMasterService.cs" />
+    <Compile Remove="Interface\IMachinaryCategoryMasterService.cs" />
+    <Compile Remove="Interface\IMachinaryProductMasterService.cs" />
+    <Compile Remove="Interface\IMandiForMobileServices.cs" />
+    <Compile Remove="Interface\IMandimasterService.cs" />
+    <Compile Remove="Interface\IModuleMasterServices.cs" />
+    <Compile Remove="Interface\INutrientDeficencyDetailService.cs" />
+    <Compile Remove="Interface\INutrientDetailService.cs" />
+    <Compile Remove="Interface\INutrientMasterService.cs" />
+    <Compile Remove="Interface\INutrientsCategoryService.cs" />
+    <Compile Remove="Interface\IPolicyCategoryMasterService.cs" />
+    <Compile Remove="Interface\IPolicyDetailService.cs" />
+    <Compile Remove="Interface\IPolicyTypeMasterService.cs" />
+    <Compile Remove="Interface\IPostCategoryService.cs" />
+    <Compile Remove="Interface\IPostCommentService.cs" />
+    <Compile Remove="Interface\IPostDetailService.cs" />
+    <Compile Remove="Interface\IProductBrandMasterService.cs" />
+    <Compile Remove="Interface\IProductCategoryMasterService.cs" />
+    <Compile Remove="Interface\IProductImageService.cs" />
+    <Compile Remove="Interface\IProductService.cs" />
+    <Compile Remove="Interface\IProductSubCategoryMasterService.cs" />
+    <Compile Remove="Interface\IRoleService.cs" />
+    <Compile Remove="Interface\ISeasonMasterService.cs" />
+    <Compile Remove="Interface\ISeedBrandMasterService.cs" />
+    <Compile Remove="Interface\ISeedCategoryMasterService.cs" />
+    <Compile Remove="Interface\ISeedCropMasterService.cs" />
+    <Compile Remove="Interface\ISeedCropSpacingService.cs" />
+    <Compile Remove="Interface\ISeedProductMasterService.cs" />
+    <Compile Remove="Interface\ISeedSubCategoryMasterService.cs" />
+    <Compile Remove="Interface\ISoilTestReportService.cs" />
+    <Compile Remove="Interface\ISoilTypeMasterService.cs" />
+    <Compile Remove="Interface\IStateService.cs" />
+    <Compile Remove="Interface\IUnitofMeasurementMasterService.cs" />
+    <Compile Remove="Interface\IUserService.cs" />
+    <Compile Remove="Interface\IWeedManagementCategory.cs" />
+    <Compile Remove="Interface\IWeedMaster.cs" />
+    <Compile Remove="Interface\IWeedMgmtMethod.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CorePush" Version="3.0.12" />
+    <PackageReference Include="Cronos" Version="0.7.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.19" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.OData.Edm" Version="7.12.1" />
+    <PackageReference Include="Microsoft.Recognizers.Text.DateTime" Version="1.8.5" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="5.0.1" />
+    <PackageReference Include="RestSharp" Version="110.2.0" />
+    <PackageReference Include="runtime.native.System.Net.Http" Version="4.3.1" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+    <PackageReference Include="System.Runtime" Version="4.3.1" />
+    <PackageReference Include="System.Runtime.Extensions" Version="4.3.1" />
+    <PackageReference Include="System.Runtime.InteropServices" Version="4.3.0" />
+	
+
+	  <PackageReference Include="Twilio" Version="6.2.1" />
+  </ItemGroup>
+
+	
+
+	<ItemGroup>
+    <ProjectReference Include="..\HealthIndex.Common\HealthIndex.Common.csproj" />
+    <ProjectReference Include="..\HealthIndex.Entity\HealthIndex.Entity.csproj" />
+    <ProjectReference Include="..\HealthIndex.Model\HealthIndex.Model.csproj" />
+  </ItemGroup>
+
+	
+
+	<ItemGroup>
+	  <Reference Include="MCPG.CCA.Util">
+	    <HintPath>..\..\..\..\ASP.Net_Kit_Version_3.5\ASP.Net_Kit_Version_3.5\NON_SEAMLESS_KIT\MCPG.ASP.net.ENC\bin\MCPG.CCA.Util.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,71 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<style type="text/css">
+    body{
+        font-family:Arial;
+        font-size:10pt;
+    }
+    table{ 
+        border:1px solid #ccc;
+        border-collapse:collapse;
+    }
+    table th{
+        background-color:#F7F7F7;
+        color:#333;
+        font-weight:bold;
+
+    }
+    table th, table td{
+        padding:5px;
+        border:1px solid #ccc;
+    }
+    table,table table td{
+        border:0px solid #ccc;
+    }
+</style>
+<body>
+    <form id="form1" runat="server">
+        <asp:TextBox id="txtcity" runat="server" Text="" />
+        <asp:Button  runat="server" Text="Get weather" onclick="GetWeatherInfo" />
+        <hr/>
+        <table id="tblWeather" runat="server" cellpadding="0" cellspacing="0" visible="false">
+            <tr>
+                <th colspan="2">
+                    weather information
+                </th>
+            </tr>
+            <tr>
+                <td rowspan="3">
+                    <asp:Image id="imgeweather" runat="server"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Lable id="lblCity_Country" runat="server" />
+                    <asp:Image id="imgcountryflag" runat="server" />
+                    <asp:Lable id="lbldiscription" runat="server" />
+                    Humidity
+                    <asp:Lable id="lblhumidity" runat="server" />
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Tempureture:(Min:
+                    <asp:Lable id="lblMin" runat="server" />
+                    Max:
+                    <asp:Lable id="lblMax" runat="server" />
+
+                    )
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

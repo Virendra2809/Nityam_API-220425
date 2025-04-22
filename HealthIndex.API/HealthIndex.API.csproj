@@ -1,0 +1,201 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\AratiDewarde\Desktop\Arati Projects\Agtonomics project\AgtonomicsAgriMobileApp\HealthIndex.API\HealthIndex.API.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Nutrient\**" />
+    <Compile Remove="Resources\**" />
+    <Content Remove="Nutrient\**" />
+    <Content Remove="Resources\**" />
+    <EmbeddedResource Remove="Nutrient\**" />
+    <EmbeddedResource Remove="Resources\**" />
+    <None Remove="Nutrient\**" />
+    <None Remove="Resources\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\AgriProductMasterController.cs" />
+    <Compile Remove="Controllers\AgriProductPriceController.cs" />
+    <Compile Remove="Controllers\AgriProductTypeMasterController.cs" />
+    <Compile Remove="Controllers\AgriProductVarietyMasterController.cs" />
+    <Compile Remove="Controllers\CityMasterController.cs" />
+    <Compile Remove="Controllers\CropCultivationProcessController.cs" />
+    <Compile Remove="Controllers\CropCultivationProcessDetailController.cs" />
+    <Compile Remove="Controllers\CropDiseaseDetailController.cs" />
+    <Compile Remove="Controllers\CropDiseaseMasterController.cs" />
+    <Compile Remove="Controllers\CropInsectDetailController.cs" />
+    <Compile Remove="Controllers\CropInsectMasterController.cs" />
+    <Compile Remove="Controllers\CropIrrigationController.cs" />
+    <Compile Remove="Controllers\CropMasterController.cs" />
+    <Compile Remove="Controllers\CropNotificationController.cs" />
+    <Compile Remove="Controllers\CropNutritionBrandMasterController.cs" />
+    <Compile Remove="Controllers\CropNutritionProductMasterController.cs" />
+    <Compile Remove="Controllers\CropNutrtionCategoryMasterController.cs" />
+    <Compile Remove="Controllers\CropProtectionBrandMasterController.cs" />
+    <Compile Remove="Controllers\CropProtectionCategoryMasterController.cs" />
+    <Compile Remove="Controllers\CropProtectionProductController.cs" />
+    <Compile Remove="Controllers\CropProtectionSubCategoryMasterController.cs" />
+    <Compile Remove="Controllers\CropStageController.cs" />
+    <Compile Remove="Controllers\CropTypeMasterController.cs" />
+    <Compile Remove="Controllers\ExpenseDetailController.cs" />
+    <Compile Remove="Controllers\ExpenseHeadTypeController.cs" />
+    <Compile Remove="Controllers\ExpenseOperationController.cs" />
+    <Compile Remove="Controllers\ExpenseStageController.cs" />
+    <Compile Remove="Controllers\FarmerCropDetailController.cs" />
+    <Compile Remove="Controllers\FarmerMasterController.cs" />
+    <Compile Remove="Controllers\FirmDetailController.cs" />
+    <Compile Remove="Controllers\ICropInsectDetailModel.cs" />
+    <Compile Remove="Controllers\LandPreparationController.cs" />
+    <Compile Remove="Controllers\LanguageMasterController.cs" />
+    <Compile Remove="Controllers\LikesController.cs" />
+    <Compile Remove="Controllers\LoginController.cs" />
+    <Compile Remove="Controllers\MachinaryBrandMasterController.cs" />
+    <Compile Remove="Controllers\MachinaryCategoryMasterController.cs" />
+    <Compile Remove="Controllers\MachinaryProductMasterController.cs" />
+    <Compile Remove="Controllers\MandiDetailsController.cs" />
+    <Compile Remove="Controllers\MandiMasterController.cs" />
+    <Compile Remove="Controllers\ModuleMasterController.cs" />
+    <Compile Remove="Controllers\NotificationController.cs" />
+    <Compile Remove="Controllers\NutrientDeficencyController.cs" />
+    <Compile Remove="Controllers\NutrientDetailController.cs" />
+    <Compile Remove="Controllers\NutrientMasterController.cs" />
+    <Compile Remove="Controllers\NutrientsCategoryController.cs" />
+    <Compile Remove="Controllers\PolicyCategoryMasterController.cs" />
+    <Compile Remove="Controllers\PolicyDetailController.cs" />
+    <Compile Remove="Controllers\PolicyTypeMasterController.cs" />
+    <Compile Remove="Controllers\PostCategoryController.cs" />
+    <Compile Remove="Controllers\PostCommentController.cs" />
+    <Compile Remove="Controllers\PostDetailController.cs" />
+    <Compile Remove="Controllers\ProductBrandMasterController.cs" />
+    <Compile Remove="Controllers\ProductCategoryMasterController.cs" />
+    <Compile Remove="Controllers\ProductController.cs" />
+    <Compile Remove="Controllers\ProductImageController.cs" />
+    <Compile Remove="Controllers\ProductSubCategoryMasterController.cs" />
+    <Compile Remove="Controllers\RoleController.cs" />
+    <Compile Remove="Controllers\SeasonMasterController.cs" />
+    <Compile Remove="Controllers\SeedBrandMasterController.cs" />
+    <Compile Remove="Controllers\SeedCategoryMasterController.cs" />
+    <Compile Remove="Controllers\SeedCropMasterController.cs" />
+    <Compile Remove="Controllers\SeedCropSpacingController.cs" />
+    <Compile Remove="Controllers\SeedProductMasterController.cs" />
+    <Compile Remove="Controllers\SeedSubCategoryMasterController.cs" />
+    <Compile Remove="Controllers\SoilTestReportController.cs" />
+    <Compile Remove="Controllers\SoilTypeMasterController.cs" />
+    <Compile Remove="Controllers\StateMasterController.cs" />
+    <Compile Remove="Controllers\UnitofMeasurementMasterController.cs" />
+    <Compile Remove="Controllers\UserController.cs" />
+    <Compile Remove="Controllers\ValuesController.cs" />
+    <Compile Remove="Controllers\WeatherForecastController.cs" />
+    <Compile Remove="Controllers\WeedManagementCategoryController.cs" />
+    <Compile Remove="Controllers\WeedManagementMethodController.cs" />
+    <Compile Remove="Controllers\WeedMasterController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="RedirectPage.cshtml" />
+  </ItemGroup>
+
+	<ItemGroup>
+	<PackageReference Include="Cronos" Version="0.7.1" />
+	<PackageReference Include="EPPlus" Version="7.0.5" />
+	<PackageReference Include="FirebaseAdmin" Version="2.3.0" />
+	<PackageReference Include="CorePush" Version="3.0.12" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.19" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.19" />
+    <PackageReference Include="Microsoft.Recognizers.Text.DateTime" Version="1.8.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="5.0.1" />
+    <PackageReference Include="NuGet.Protocol" Version="5.10.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HealthIndex.Business\HealthIndex.Business.csproj" />
+    <ProjectReference Include="..\HealthIndex.Common\HealthIndex.Common.csproj" />
+    <ProjectReference Include="..\HealthIndex.Entity\HealthIndex.Entity.csproj" />
+    <ProjectReference Include="..\HealthIndex.Model\HealthIndex.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="CropImages\CropImage\bringel.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CropImages\CropImage\Brocolli.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CropImages\CropImage\carrot.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CropImages\CropImage\corn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CropImages\CropImage\Garlic.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CropImages\CropImage\Guava.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CropImages\CropImage\Mirchi.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CropImages\CropImage\model.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CropImages\CropImage\onion.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CropImages\CropImage\potato.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CropImages\CropImage\tomato.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ModuleImages\ModuleIcon\img1 %282%29.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ModuleImages\ModuleIcon\img1.webp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ModuleImages\ModuleIcon\model.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resource\AppUserDataBackup\abc_001.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resource\QuestionImage\Screenshot %286%29.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="RedirectPage.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="RedirectPage.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="RedirectPage.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MCPG.ASP.net.ENC">
+      <HintPath>..\..\..\..\ASP.Net_Kit_Version_3.5\ASP.Net_Kit_Version_3.5\NON_SEAMLESS_KIT\MCPG.ASP.net.ENC\bin\MCPG.ASP.net.ENC.dll</HintPath>
+    </Reference>
+    <Reference Include="MCPG.CCA.Util">
+      <HintPath>..\..\..\..\ASP.Net_Kit_Version_3.5\ASP.Net_Kit_Version_3.5\NON_SEAMLESS_KIT\MCPG.ASP.net.ENC\bin\MCPG.CCA.Util.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

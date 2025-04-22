@@ -1,0 +1,127 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DataModels\AgriProductMaster.cs" />
+    <Compile Remove="DataModels\AgriProductPriceDetail.cs" />
+    <Compile Remove="DataModels\AgriProductTypeMaster.cs" />
+    <Compile Remove="DataModels\AgriProductVarietyMaster.cs" />
+    <Compile Remove="DataModels\CartItem.cs" />
+    <Compile Remove="DataModels\CityMaster.cs" />
+    <Compile Remove="DataModels\CropCultivationProcess.cs" />
+    <Compile Remove="DataModels\CropCultivationProcessDetail.cs" />
+    <Compile Remove="DataModels\CropDiseaseDetail.cs" />
+    <Compile Remove="DataModels\CropDiseaseImage.cs" />
+    <Compile Remove="DataModels\CropDiseaseManagement.cs" />
+    <Compile Remove="DataModels\CropDiseaseMaster.cs" />
+    <Compile Remove="DataModels\CropDiseaseSymptom.cs" />
+    <Compile Remove="DataModels\CropInsectDetail.cs" />
+    <Compile Remove="DataModels\CropInsectManagement.cs" />
+    <Compile Remove="DataModels\CropInsectMaster.cs" />
+    <Compile Remove="DataModels\CropInsectSymptom.cs" />
+    <Compile Remove="DataModels\CropIrrigationDetail.cs" />
+    <Compile Remove="DataModels\CropMaster.cs" />
+    <Compile Remove="DataModels\CropNotification.cs" />
+    <Compile Remove="DataModels\CropNutritionBrandMaster.cs" />
+    <Compile Remove="DataModels\CropNutritionProductMaster.cs" />
+    <Compile Remove="DataModels\CropNutrtionCategoryMaster.cs" />
+    <Compile Remove="DataModels\CropProtectionBrandMaster.cs" />
+    <Compile Remove="DataModels\CropProtectionCategoryMaster.cs" />
+    <Compile Remove="DataModels\CropProtectionProductMaster.cs" />
+    <Compile Remove="DataModels\CropProtectionSubCategoryMaster.cs" />
+    <Compile Remove="DataModels\CropStageMaster.cs" />
+    <Compile Remove="DataModels\CropTypeMaster.cs" />
+    <Compile Remove="DataModels\ExpenseHeadTypeMaster.cs" />
+    <Compile Remove="DataModels\ExpenseOperation.cs" />
+    <Compile Remove="DataModels\ExpensesDetail.cs" />
+    <Compile Remove="DataModels\ExpenseStageMaster.cs" />
+    <Compile Remove="DataModels\FarmerCropDetail.cs" />
+    <Compile Remove="DataModels\FarmerMaster.cs" />
+    <Compile Remove="DataModels\FarmerSelectedCrop.cs" />
+    <Compile Remove="DataModels\FertCalculationFormula.cs" />
+    <Compile Remove="DataModels\InsectImage.cs" />
+    <Compile Remove="DataModels\LandPreparationDetail.cs" />
+    <Compile Remove="DataModels\LandPreparationImage.cs" />
+    <Compile Remove="DataModels\LanguageMaster.cs" />
+    <Compile Remove="DataModels\MachinaryBrandMaster.cs" />
+    <Compile Remove="DataModels\MachinaryCategoryMaster.cs" />
+    <Compile Remove="DataModels\MachinaryProductMaster.cs" />
+    <Compile Remove="DataModels\MandiMaster.cs" />
+    <Compile Remove="DataModels\MenuMaster.cs" />
+    <Compile Remove="DataModels\ModuleMaster.cs" />
+    <Compile Remove="DataModels\NotificationPhase.cs" />
+    <Compile Remove="DataModels\NutrientDeficencyDetail.cs" />
+    <Compile Remove="DataModels\NutrientDeficencyImage.cs" />
+    <Compile Remove="DataModels\NutrientDeficencyManagement.cs" />
+    <Compile Remove="DataModels\NutrientDeficencySymptom.cs" />
+    <Compile Remove="DataModels\NutrientDetail.cs" />
+    <Compile Remove="DataModels\NutrientMaster.cs" />
+    <Compile Remove="DataModels\NutrientsCategoryMaster.cs" />
+    <Compile Remove="DataModels\Order.cs" />
+    <Compile Remove="DataModels\OrderItem.cs" />
+    <Compile Remove="DataModels\PolicyCategoryMaster.cs" />
+    <Compile Remove="DataModels\PolicyDetail.cs" />
+    <Compile Remove="DataModels\PolicyTypeMaster.cs" />
+    <Compile Remove="DataModels\PostCategory.cs" />
+    <Compile Remove="DataModels\PostCommentDetail.cs" />
+    <Compile Remove="DataModels\PostDetail.cs" />
+    <Compile Remove="DataModels\PostImge.cs" />
+    <Compile Remove="DataModels\PostLikeDetail.cs" />
+    <Compile Remove="DataModels\Product.cs" />
+    <Compile Remove="DataModels\ProductBrandMaster.cs" />
+    <Compile Remove="DataModels\ProductCategory.cs" />
+    <Compile Remove="DataModels\ProductCategoryMaster.cs" />
+    <Compile Remove="DataModels\ProductImage.cs" />
+    <Compile Remove="DataModels\ProductOprManual.cs" />
+    <Compile Remove="DataModels\ProductPartCatalogue.cs" />
+    <Compile Remove="DataModels\ProductPhotoVideo.cs" />
+    <Compile Remove="DataModels\ProductServiceManual.cs" />
+    <Compile Remove="DataModels\ProductSubCategory.cs" />
+    <Compile Remove="DataModels\ProductSubCategoryMaster.cs" />
+    <Compile Remove="DataModels\ProductTraining.cs" />
+    <Compile Remove="DataModels\Region.cs" />
+    <Compile Remove="DataModels\Role.cs" />
+    <Compile Remove="DataModels\RoleDetail.cs" />
+    <Compile Remove="DataModels\SeasonMaster.cs" />
+    <Compile Remove="DataModels\SeedBrandMaster.cs" />
+    <Compile Remove="DataModels\SeedCategoryMaster.cs" />
+    <Compile Remove="DataModels\SeedCropMaster.cs" />
+    <Compile Remove="DataModels\SeedCropSpacing.cs" />
+    <Compile Remove="DataModels\SeedProductMaster.cs" />
+    <Compile Remove="DataModels\SeedSubCategoryMaster.cs" />
+    <Compile Remove="DataModels\SoilTestReport.cs" />
+    <Compile Remove="DataModels\SoilTypeMaster.cs" />
+    <Compile Remove="DataModels\StateMaster.cs" />
+    <Compile Remove="DataModels\Supplier.cs" />
+    <Compile Remove="DataModels\Taxis.cs" />
+    <Compile Remove="DataModels\Unit.cs" />
+    <Compile Remove="DataModels\UnitofMeasurementMaster.cs" />
+    <Compile Remove="DataModels\User.cs" />
+    <Compile Remove="DataModels\UserDetail.cs" />
+    <Compile Remove="DataModels\WeedDetail.cs" />
+    <Compile Remove="DataModels\WeedImage.cs" />
+    <Compile Remove="DataModels\WeedManagementCategory.cs" />
+    <Compile Remove="DataModels\WeedMaster.cs" />
+    <Compile Remove="DataModels\WeedMgmtMethod.cs" />
+    <Compile Remove="DataModels\YearMaster.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Cronos" Version="0.7.1" />
+	  <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.19" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Recognizers.Text.DateTime" Version="1.8.5" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="5.0.1" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>

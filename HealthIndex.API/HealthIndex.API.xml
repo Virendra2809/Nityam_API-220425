@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HealthIndex.API</name>
+    </assembly>
+    <members>
+        <member name="M:HealthIndex.API.Controllers.BaseAPIController.ReturnErrorResponse(HealthIndex.Model.ErrorResponseModel,System.String)">
+            <summary>
+            This will create an error response as per status 
+            </summary>
+            <param name="model"></param>
+            <param name="customErrorMessage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HealthIndex.API.Controllers.UserController.GetUserById">
+            <summary>
+            To get user by User ID 
+            </summary>       
+            <returns></returns>
+        </member>
+    </members>
+</doc>
